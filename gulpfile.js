@@ -10,8 +10,12 @@ const header = require("gulp-header");
 const merge = require("merge-stream");
 const plumber = require("gulp-plumber");
 const rename = require("gulp-rename");
-const sass = require("gulp-sass");
+const gulpSass = require("gulp-sass");
+const dartSass = require("sass");
 const uglify = require("gulp-uglify");
+
+// Configure gulp-sass to use Dart Sass
+const sass = gulpSass(dartSass);
 
 // Load package.json for banner
 const pkg = require('./package.json');

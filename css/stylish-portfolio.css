@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Stylish Portfolio v5.0.3 (https://startbootstrap.com/template-overviews/stylish-portfolio)
- * Copyright 2013-2019 Start Bootstrap
+ * Copyright 2013-2026 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio/blob/master/LICENSE)
  */
 
@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  font-family: 'Source Sans Pro';
+  font-family: "Source Sans Pro";
 }
 
 .btn-xl {
@@ -26,7 +26,6 @@ body {
 .content-section-heading h2 {
   font-size: 3rem;
 }
-
 .content-section-heading h3 {
   font-size: 1rem;
   text-transform: uppercase;
@@ -55,7 +54,6 @@ h6 {
     height: 75%;
   }
 }
-
 .map iframe {
   pointer-events: none;
 }
@@ -72,15 +70,12 @@ h6 {
   background: rgba(52, 58, 64, 0.5);
   line-height: 45px;
 }
-
 .scroll-to-top:focus, .scroll-to-top:hover {
   color: white;
 }
-
 .scroll-to-top:hover {
   background: #343a40;
 }
-
 .scroll-to-top i {
   font-weight: 800;
 }
@@ -99,22 +94,18 @@ h6 {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 .masthead h1 {
   font-size: 4rem;
   margin: 0;
   padding: 0;
   color: #D72340;
 }
-
 .masthead .btn {
   background-color: #F6BD60;
 }
-
 .masthead .btn:hover {
   background-color: #e7a63c;
 }
-
 @media (min-width: 992px) {
   .masthead {
     height: 100vh;
@@ -132,14 +123,12 @@ h6 {
   background-size: cover;
   color: #fff;
 }
-
 #sub-head.content-section {
   padding-top: 4.5rem !important;
   padding-bottom: 4.5rem !important;
 }
-
 #sub-head .mx-auto {
-  background-color: #00000057;
+  background-color: rgba(0, 0, 0, 0.3411764706);
   border-radius: 15px;
   padding: 20px 25px 25px;
 }
@@ -224,15 +213,12 @@ h6 {
   line-height: 50px;
   z-index: 999;
 }
-
 .menu-toggle:focus, .menu-toggle:hover {
   color: #fff;
 }
-
 .menu-toggle:hover {
   background: #343a40;
 }
-
 #services {
   background-color: #F28482;
 }
@@ -257,7 +243,6 @@ h6 {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 .callout h2 {
   font-size: 3.5rem;
   font-weight: 700;
@@ -272,7 +257,6 @@ h6 {
   max-width: 530px;
   margin: auto auto 1rem;
 }
-
 .portfolio-item .caption {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -285,22 +269,18 @@ h6 {
   bottom: 0;
   z-index: 1;
 }
-
 .portfolio-item .caption .caption-content {
   color: #fff;
   margin: auto 2rem 2rem;
 }
-
 .portfolio-item .caption .caption-content h2 {
   font-size: 0.8rem;
   text-transform: uppercase;
 }
-
 .portfolio-item .caption .caption-content p {
   font-weight: 300;
   font-size: 1.2rem;
 }
-
 @media (min-width: 992px) {
   .portfolio-item {
     max-width: none;
@@ -308,7 +288,6 @@ h6 {
   }
   .portfolio-item .caption {
     -webkit-transition: -webkit-clip-path 0.25s ease-out, background-color 0.7s;
-    -webkit-clip-path: inset(0px);
     clip-path: inset(0px);
   }
   .portfolio-item .caption .caption-content {
@@ -320,16 +299,13 @@ h6 {
   }
   .portfolio-item img {
     -webkit-transition: -webkit-clip-path 0.25s ease-out;
-    -webkit-clip-path: inset(-1px);
     clip-path: inset(-1px);
   }
   .portfolio-item:hover img {
-    -webkit-clip-path: inset(2rem);
     clip-path: inset(2rem);
   }
   .portfolio-item:hover .caption {
     background-color: rgba(29, 128, 159, 0.9);
-    -webkit-clip-path: inset(2rem);
     clip-path: inset(2rem);
   }
 }
@@ -350,7 +326,6 @@ footer.footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
 }
-
 footer.footer .social-link {
   display: block;
   height: 4rem;
@@ -363,18 +338,16 @@ footer.footer .social-link {
   -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
-
 footer.footer .social-link:hover {
-  background-color: #155d74;
+  background-color: rgb(21.1329787234, 93.2765957447, 115.8670212766);
   text-decoration: none;
 }
 
 a {
   color: #1D809F;
 }
-
 a:hover, a:focus, a:active {
-  color: #155d74;
+  color: rgb(21.1329787234, 93.2765957447, 115.8670212766);
 }
 
 .btn-primary {
@@ -382,10 +355,9 @@ a:hover, a:focus, a:active {
   border-color: #1D809F !important;
   color: #fff !important;
 }
-
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #155d74 !important;
-  border-color: #155d74 !important;
+  background-color: rgb(21.1329787234, 93.2765957447, 115.8670212766) !important;
+  border-color: rgb(21.1329787234, 93.2765957447, 115.8670212766) !important;
 }
 
 .btn-secondary {
@@ -393,10 +365,9 @@ a:hover, a:focus, a:active {
   border-color: #ecb807 !important;
   color: #fff !important;
 }
-
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
-  background-color: #ba9106 !important;
-  border-color: #ba9106 !important;
+  background-color: rgb(186.4691358025, 145.3827160494, 5.5308641975) !important;
+  border-color: rgb(186.4691358025, 145.3827160494, 5.5308641975) !important;
 }
 
 .btn-dark {
