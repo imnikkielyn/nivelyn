@@ -1,0 +1,33 @@
+.hero-title {
+    font-family: 'Smythe';
+}
+.color-mist {
+    color: #f4f3f1;
+}
+.color-peony {
+    color: #f2d1d4;
+}
+.color-mauve {
+    color: #D8959B;
+}
+.color-sage {
+    color: #829672;
+}
+.color-evergreen {
+    color: #344c3d;
+}
+.bg-mist {
+    background-color: #f4f3f1;
+}
+.bg-peony {
+    background-color: #f2d1d4;
+}
+.bg-mauve {
+    background-color: #D8959B;
+}
+.bg-sage {
+    background-color: #829672;
+}
+.bg-evergreen {
+    background-color: #344c3d;
+}

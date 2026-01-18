@@ -101,10 +101,11 @@ h6 {
   color: #D72340;
 }
 .masthead .btn {
-  background-color: #F6BD60;
+  background-color: #D8959B;
+  color: #344c3d;
 }
 .masthead .btn:hover {
-  background-color: #e7a63c;
+  background-color: #f2d1d4;
 }
 @media (min-width: 992px) {
   .masthead {
@@ -219,10 +220,6 @@ h6 {
 .menu-toggle:hover {
   background: #343a40;
 }
-#services {
-  background-color: #F28482;
-}
-
 .service-icon {
   background-color: #fff;
   color: #1D809F;
@@ -309,19 +306,6 @@ h6 {
     clip-path: inset(2rem);
   }
 }
-
-#rightbrain {
-  background-color: #F5CAC3;
-}
-
-#cartooname {
-  background-color: #84A59D;
-}
-
-#about {
-  background-color: #84A59D;
-}
-
 footer.footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
