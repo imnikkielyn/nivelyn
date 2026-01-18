@@ -31,3 +31,18 @@
 .bg-evergreen {
     background-color: #344c3d;
 }
+.service-icon {
+    width: 4rem !important;
+    height: 4rem !important;
+    line-height: 4.5rem !important;
+    font-size: 2rem !important;
+}
+.carousel-item img {
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+}
+#carouselTopper {
+    margin: 0 auto;
+    width: 50%;
+}
